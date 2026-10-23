@@ -1,3 +1,4 @@
+import string
 def tach_tu(chuoi):
     sach = "".join(c for c in chuoi.lower() if c not in string.punctuation)
     return sach.split()

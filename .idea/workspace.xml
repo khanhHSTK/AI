@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26dc8661-e8a7-4b38-99ae-7dbf92c2eaba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exer9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exer12.py" beforeDir="false" afterPath="$PROJECT_DIR$/exer12.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
