@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26dc8661-e8a7-4b38-99ae-7dbf92c2eaba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/AI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +37,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "khanhHSTK"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/khanhHSTK/AI.git",
+    "accountId": "94745e9c-4802-4ecf-a34a-12739ba7aff7"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3Kcxx726WbNv5mrHvndKypY8cWT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,15 +60,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.exer1.executor": "Run",
+    "Python.exer2.executor": "Run",
+    "Python.exer3.executor": "Run",
+    "Python.exer4.executor": "Run",
+    "Python.exer5.executor": "Run",
+    "Python.exer6.executor": "Run",
+    "Python.exer7.executor": "Run",
+    "Python.exer8.executor": "Run",
+    "Python.exer9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/AI"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+        <option value="bundled-python-sdk-1cd77e80b48f-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.32098.74" />
       </set>
     </attachedChunks>
   </component>
