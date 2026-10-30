@@ -1,10 +1,8 @@
 import numpy as np
-
 n = np.array([[5, 10, 21],
               [11, 23, 18],
               [22, 19, 35],
               [96, 22 ,26]])
-
 print(n.ndim)
 print(n.shape)
 print()
