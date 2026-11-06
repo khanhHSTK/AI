@@ -1,19 +1,42 @@
+from asyncio.windows_events import NULL
+
 import pandas as pd
-df = pd.DataFrame({
-    "Ten":  ["An", "Binh", None, "An"],
-    "Diem": [8.0, 7.0, 6.0, 8.0],
-})
-print(df)
-print(df.duplicated().sum())
-df1 = df.copy()
-kq = df1.dropna()
-print(kq)
-print(df1)
-df2 = df.copy()
-kq2 = df2.dropna(inplace=True)
-print(kq2)
-print(df2)
-df3 = df.copy()
-df3.rename(columns={"Ten": "HoTen"}, inplace=True)
-df3.drop(columns="Diem", inplace=True)
-print(df3)
+
+df = pd.read_csv("C:\\Users\\admin\\Desktop\\AI\\sinhvien.csv", sep=";")
+#print(df.head())
+
+df.columns = ["ID", "Name", "BDD", "Gender", "Mark", "Class"]
+df["Gender"] = df["Gender"].astype(str).str.strip()
+
+# print(df["Gender"].value_counts())
+
+# print(df.groupby(["Class", "Gender"]).size().unstack(fill_value=0))
+
+df.rename(columns={"ID": "MS", "Name": "Ten", "BDD": "NgaySinh", "Gender": "GT", "Mark": "Diem", "Class": "Lop"}, inplace=True)
+
+#print(df.head())
+
+#print(df[(df["GT"] == "F") & (df["Diem"] > 7)])
+
+#print(df[df["Diem"].isna()].sort_values("MS"))
+
+diem_min = df["Diem"].min()
+df["Diem"] = df["Diem"].fillna(diem_min)
+
+def xep_loai(d):
+    if d >= 8:
+        return "Giỏi"
+    elif d >= 6:
+        return "Khá"
+    return "Trung Bình"
+
+df["XepLoai"] = df["Diem"].apply(xep_loai)
+print(df.head())
+
+top2 = (df.sort_values("Diem", ascending=False)
+          .groupby("Lop")
+          .head(2)
+          .sort_values(["Lop", "Diem"], ascending=[True, False]))
+print(top2[["Ten", "Lop", "Diem"]])
+
+print(df[df["GT"] == "M"]["Diem"].agg(["max", "min", "mean"]))
